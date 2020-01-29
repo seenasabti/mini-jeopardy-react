@@ -1,0 +1,10 @@
+.card {
+    min-height: 300px;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
