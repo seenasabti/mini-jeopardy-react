@@ -22,8 +22,8 @@ describe('successfully loads', () => {
     fireEvent.change(input, {target: { value: 'answer 1' }});
     fireEvent.click(getByText('Go!'));
 
-    const wrongAnswerElement = getByTestId('correct_answer');
-    expect(wrongAnswerElement).toBeInTheDocument();
+    const correctAnswerElement = getByTestId('correct_answer');
+    expect(correctAnswerElement).toBeInTheDocument();
   });
 
   test('user answers wrongly', () => {
