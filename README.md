@@ -1,4 +1,6 @@
-## Project Description
+## Description
+
+The purpose of this repo is to create a sample project for trying out [React Testing Libary](https://www.objekt.click/2020/02/react-testing-library-learn-by-coding/).
 
 This repository contains a simple "mini jeopardy" game. It calls the `http://www.jservice.io/` API and makes use of their clues api from the year 1996 in the science category. It picks 5 random valid cues from the first set returned via the api and sorts them according to their value.
 
